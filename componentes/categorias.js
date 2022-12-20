@@ -1,3 +1,0 @@
-const crearCategoria = () =>{
-    const categoria = ``
-}

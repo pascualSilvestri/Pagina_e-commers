@@ -1,0 +1,56 @@
+{
+    "articulo":[
+        {
+            "id": 1,
+            "nombre":"Pelota",
+            "precio":"1000.00",
+            "media":"../media/unsplash_1VV1MRafd7A.png",
+            "categoria":"Deporte"
+        },
+        {
+            "id": 3,
+            "nombre":"Camisa",
+            "precio":"500.00",
+            "media":"../media/unsplash_1VV1MRafd7A.png",
+            "categoria":"Deporte"
+        },
+        {
+            "id": 4,
+            "nombre":"Ropa",
+            "precio":"1200.00",
+            "media":"../media/unsplash_1VV1MRafd7A.png",
+            "categoria":"Juegos"
+        }
+        ,
+        {
+            "id": 5,
+            "nombre":"samsung",
+            "precio":"24055.00",
+            "media":"../media/unsplash_1VV1MRafd7A.png",
+            "categoria":"Electronico"
+        }
+    ],
+    "categorias":[
+        {
+            "nombre":"Deporte",
+            "id":1
+        },
+        {
+            "nombre":"Juegos",
+            "id":2
+        },
+        {
+            "nombre":"Electronico",
+            "id":3
+        }
+    ],
+    "usuarios":[
+        {
+            "nombre":"pascual",
+            "apellido":"silvestri",
+            "usuario":"pascual",
+            "email":"pascual@gmail.com"
+        }
+
+    ]
+}
