@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-width: 350px;
+    min-width: 300px;
     height: 4rem;
     background-color: var(--fondo-nav);
     padding: 0 4rem;

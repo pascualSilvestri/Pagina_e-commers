@@ -1,0 +1,3 @@
+const crearCategoria = () =>{
+    const categoria = ``
+}
