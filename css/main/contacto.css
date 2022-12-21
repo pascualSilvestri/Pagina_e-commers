@@ -113,8 +113,9 @@
 .form_home button{
     width: 20%;
     height: 3rem;
-    border: none;
+    border: 1px solid var(--borde-btn);
     outline: none;
+    color: var(--borde-btn);
 }
 
 

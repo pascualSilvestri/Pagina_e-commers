@@ -1,20 +1,15 @@
 import { cliente_servidor } from "../servicios/servidor_cliente.js";
-import { componentes } from "../componentes/componentes.js";
 
-cliente_servidor
-.lista_categoria()
-        .then((data)=>{
-            data.forEach(({nombre,id})=>{
-                componentes.crearCategoria(nombre,id)
-            });
-        }).catch((error) => alert('ocurrio un error'));
+const formulario = document.querySelector('[data-form-ingreso]')
 
-cliente_servidor
-.lista_articulos()
-        .then((data)=>{
-            data.forEach(({media,nombre,precio,id,categoria}) => {
-                componentes.crear_articulo(categoria,media,nombre,precio,id)
-            });
-        }).catch((error) => alert('ocurrio un error'));
-
-        
+formulario.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    const nombre = document.querySelector('[nombre-ingreso]').value;
+    const precio = document.querySelector('[precio-ingreso]').value;
+    const categoria = document.querySelector('[categoria-ingreso]').value;
+    const img = document.querySelector('[img-ingreso]').value;
+    const media = "../media/"+ img;
+    cliente_servidor.crear_articulo(nombre,precio,categoria,media).then((respuesta) => {
+        window.location.href="../index.html"
+    }).catch(err =>{console.log('Error en envio del formulario')})
+});
