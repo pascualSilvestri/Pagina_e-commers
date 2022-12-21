@@ -82,10 +82,31 @@
   ],
   "usuarios": [
     {
-      "nombre": "pascual",
-      "apellido": "silvestri",
-      "usuario": "pascual",
-      "email": "pascual@gmail.com"
+      "nombre": "brenda",
+      "apellido": "serrano",
+      "usuario": "brenda",
+      "email": "brenda@gmail.com",
+      "password": "1234",
+      "sesion": true,
+      "id": "977257bc-eb33-4998-a679-414073bb5475"
+    },
+    {
+      "nombre": "osmer ",
+      "apellido": "daniel",
+      "usuario": "osmer",
+      "email": "osmer@gmail.com",
+      "password": "12345",
+      "sesion": true,
+      "id": "8c788bd1-afc5-41dd-9543-ab31fc84c4f5"
+    },
+    {
+      "nombre": "osman",
+      "apellido": "villarroel",
+      "usuario": "osman",
+      "email": "osman@gmail.com",
+      "password": "12345",
+      "id": "e6239585-a4c7-4d42-955c-def819247605",
+      "sesion": false
     }
   ]
 }

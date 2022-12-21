@@ -13,7 +13,7 @@ cliente_servidor
                         return
                     }
             });
-        })
+        }).catch(err=>{console.log("Error en lista categoria")})
 
 cliente_servidor
 .lista_articulos()
@@ -27,7 +27,7 @@ cliente_servidor
                         return
                     }            
             });
-        })
+        }).catch(err=>{console.log("Error en lista articulo")})
 
 cliente_servidor
 .lista_categoria()
@@ -35,5 +35,7 @@ cliente_servidor
     data.forEach(({nombre,id})=>{
         componentes.selec_categoria(nombre,id)
     })
-})
+}).catch(err=>{console.log("Error en lista categoria")})
+
+
         

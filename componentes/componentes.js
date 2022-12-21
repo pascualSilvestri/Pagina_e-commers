@@ -41,9 +41,6 @@ const selec_categoria = (categoria)=>{
     return select.appendChild(option)
 }
 
-// crearCategoria('Deporte')
-// crear_articulo('Deporte','../media/unsplash_1VV1MRafd7A.png','Pelota','2000.00')
-
 
 
 export const componentes={
