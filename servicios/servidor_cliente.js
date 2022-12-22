@@ -24,7 +24,7 @@ const crear_usuario = (nombre,apellido,usuario,email,password)=>{
         headers:{
             "Content-Type":"application/json"
         },
-        body:JSON.stringify({nombre,apellido,usuario,email,password,sesion:false,id: uuid.v4()})
+        body:JSON.stringify({nombre,apellido,usuario,email,password,super:false,id: uuid.v4()})
     }).then((respuesta) => respuesta.json()).catch(err=>{console.log("Error en crear usuario")})
 }
 
@@ -38,6 +38,12 @@ const validar_sesion = (nombre,apellido,usuario,email,password,sesion,id)=>{
     }).then((respuesta) => respuesta.json()).catch(err=>{console.log("Error en crear usuario")})
 }
 
+const detalle_usuario = (id)=>{
+    return fetch(`http://localhost:3000/usuarios/${id}`).then(respuesta=> respuesta.json())
+}
+    
+
+
 export const cliente_servidor = {
     lista_articulos,
     lista_categoria,
@@ -45,4 +51,5 @@ export const cliente_servidor = {
     lista_usuario,
     crear_usuario,
     validar_sesion,
+    detalle_usuario,
 }

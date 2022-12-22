@@ -43,6 +43,8 @@ const selec_categoria = (categoria)=>{
 
 
 
+
+
 export const componentes={
     mostrar_categoria,
     mostrar_articulo,

@@ -5,10 +5,10 @@ cliente_servidor
 .lista_categoria()
         .then((data)=>{
             let cont = 0;
-            data.forEach(({nombre,id})=>{
+            data.forEach(({cate,id})=>{
                 cont++
-                    if(cont != 6){
-                        componentes.mostrar_categoria(nombre,id)
+                    if(cont <= 3){
+                        componentes.mostrar_categoria(cate,id)
                     }else{
                         return
                     }
@@ -16,18 +16,27 @@ cliente_servidor
         }).catch(err=>{console.log("Error en lista categoria")})
 
 cliente_servidor
-.lista_articulos()
+.lista_categoria()
+.then((data)=>{
+    data.forEach(({cate})=>{
+        cliente_servidor
+        .lista_articulos()
         .then((data)=>{
             let cont = 0
-            data.forEach(({media,nombre,precio,id,categoria}) => {
-                    cont++
-                    if(cont != 6){
-                        componentes.mostrar_articulo(categoria,media,nombre,precio,id)
+            data.forEach(({categoria,media,nombre,precio,id})=>{
+                if(categoria == cate){
+                    if(cont < 6){
+                        cont++
+                        componentes.mostrar_articulo(cate,media,nombre,precio,id)
                     }else{
                         return
-                    }            
-            });
-        }).catch(err=>{console.log("Error en lista articulo")})
+                    }  
+                }
+                
+            })
+        }).catch(err=>{console.log("Error en lista categoria")})
+    })
+}).catch(err=>{console.log("Error en lista categoria")})
 
 cliente_servidor
 .lista_categoria()
@@ -38,4 +47,3 @@ cliente_servidor
 }).catch(err=>{console.log("Error en lista categoria")})
 
 
-        

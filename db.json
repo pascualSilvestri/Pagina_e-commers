@@ -48,65 +48,137 @@
       "categoria": "Deporte",
       "media": "../media/homgo.jpg",
       "id": "11992dbd-787f-48fd-925d-8837aa80f47b"
+    },{
+      "nombre": "pelota pin pon",
+      "precio": "300.00",
+      "categoria": "Juegos",
+      "media": "../media/unsplash_epRFE_hBNjo.png",
+      "id": "a9f88148-2a05-4b33-84b7-b5ffce6949f0"
+    },
+    {
+      "nombre": "joda de la fuerza",
+      "precio": "3500.00",
+      "categoria": "Juegos",
+      "media": "../media/unsplash_KeGToDVN0l4.png",
+      "id": "ef4f1a60-34d6-404b-86e7-1c0454629a84"
+    },
+    {
+      "nombre": "joda bebe",
+      "precio": "5500.00",
+      "categoria": "Juegos",
+      "media": "../media/unsplash_R8L1l9RN198.png",
+      "id": "4bf07f3c-fdf5-4ebb-8bef-4aa4d4611f07"
+    },
+    {
+      "nombre": "zapatilla",
+      "precio": "25000.00",
+      "categoria": "Juegos",
+      "media": "../media/unsplash_4OHkK555s1A.png",
+      "id": "f257ac42-bb0e-4ed5-8399-04d29ab9252c"
+    },
+    {
+      "nombre": "start war",
+      "precio": "15000.00",
+      "categoria": "Juegos",
+      "media": "../media/unsplash_1VV1MRafd7A.png",
+      "id": "541e643f-6e25-413e-a161-fcf54bcffc99"
+    },
+    {
+      "nombre": "vaso",
+      "precio": "2400.00",
+      "categoria": "Juegos",
+      "media": "../media/unsplash_6FDXGY9J6y4.png",
+      "id": "0eebe745-b575-4055-96e0-71321c47fff4"
+    },
+    {
+      "nombre": "hongo",
+      "precio": "2000.00",
+      "categoria": "Juegos",
+      "media": "../media/homgo.jpg",
+      "id": "11992dbd-787f-48fd-925d-8837aa80f47b"
+    }
+    ,{
+      "nombre": "pelota pin pon",
+      "precio": "300.00",
+      "categoria": "Electronico",
+      "media": "../media/unsplash_epRFE_hBNjo.png",
+      "id": "a9f88148-2a05-4b33-84b7-b5ffce6949f0"
+    },
+    {
+      "nombre": "joda de la fuerza",
+      "precio": "3500.00",
+      "categoria": "Electronico",
+      "media": "../media/unsplash_KeGToDVN0l4.png",
+      "id": "ef4f1a60-34d6-404b-86e7-1c0454629a84"
+    },
+    {
+      "nombre": "joda bebe",
+      "precio": "5500.00",
+      "categoria": "Electronico",
+      "media": "../media/unsplash_R8L1l9RN198.png",
+      "id": "4bf07f3c-fdf5-4ebb-8bef-4aa4d4611f07"
+    },
+    {
+      "nombre": "zapatilla",
+      "precio": "25000.00",
+      "categoria": "Electronico",
+      "media": "../media/unsplash_4OHkK555s1A.png",
+      "id": "f257ac42-bb0e-4ed5-8399-04d29ab9252c"
+    },
+    {
+      "nombre": "start war",
+      "precio": "15000.00",
+      "categoria": "Electronico",
+      "media": "../media/unsplash_1VV1MRafd7A.png",
+      "id": "541e643f-6e25-413e-a161-fcf54bcffc99"
+    },
+    {
+      "nombre": "vaso",
+      "precio": "2400.00",
+      "categoria": "Electronico",
+      "media": "../media/unsplash_6FDXGY9J6y4.png",
+      "id": "0eebe745-b575-4055-96e0-71321c47fff4"
+    },
+    {
+      "nombre": "hongo",
+      "precio": "2000.00",
+      "categoria": "Electronico",
+      "media": "../media/homgo.jpg",
+      "id": "11992dbd-787f-48fd-925d-8837aa80f47b"
     }
   ],
   "categorias": [
     {
-      "nombre": "Deporte",
+      "cate": "Deporte",
       "id": 1
     },
     {
-      "nombre": "Juegos",
+      "cate": "Juegos",
       "id": 2
     },
     {
-      "nombre": "Electronico",
+      "cate": "Electronico",
       "id": 3
-    },
-    {
-      "nombre": "Video",
-      "id": 4
-    },
-    {
-      "nombre": "Musica",
-      "id": 5
-    },
-    {
-      "nombre": "Linea Blanca",
-      "id": 6
-    },
-    {
-      "nombre": "Hombres",
-      "id": 7
     }
   ],
   "usuarios": [
+    {
+      "nombre": "Pascual",
+      "apellido": "silvestri",
+      "usuario": "pascual",
+      "email": "pascual@gmail.com",
+      "password": "1234",
+      "super": true,
+      "id": "3c09f8fd-ecdb-4b72-ba78-9df65f6d56d2"
+    },
     {
       "nombre": "brenda",
       "apellido": "serrano",
       "usuario": "brenda",
       "email": "brenda@gmail.com",
       "password": "1234",
-      "sesion": true,
-      "id": "977257bc-eb33-4998-a679-414073bb5475"
-    },
-    {
-      "nombre": "osmer ",
-      "apellido": "daniel",
-      "usuario": "osmer",
-      "email": "osmer@gmail.com",
-      "password": "12345",
-      "sesion": true,
-      "id": "8c788bd1-afc5-41dd-9543-ab31fc84c4f5"
-    },
-    {
-      "nombre": "osman",
-      "apellido": "villarroel",
-      "usuario": "osman",
-      "email": "osman@gmail.com",
-      "password": "12345",
-      "id": "e6239585-a4c7-4d42-955c-def819247605",
-      "sesion": false
+      "super": false,
+      "id": "71fab35a-5dfc-4741-a1a8-7e858e53d042"
     }
   ]
 }
